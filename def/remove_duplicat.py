@@ -9,7 +9,15 @@ def remove_duplicat(nums):
         second_pointer += 1
     return print(nums[:first_pointer])
 
-a = [0, 0, 0, 1, 2, 2, 3, 3, 3, 4]
 
 
-remove_duplicat(a)
+def nums_append_to_list(nums):
+    for i in range(len(nums)):
+        b.append(int(nums[i]))
+    return b
+        
+nums = input()
+b = []
+
+nums_append_to_list(nums)
+remove_duplicat(sorted(b))
